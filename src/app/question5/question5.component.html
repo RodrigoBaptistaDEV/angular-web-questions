@@ -1,0 +1,21 @@
+<div class="container">
+    <h1 class="title"> Questão 5</h1>
+    <div class="imagebox">
+        <img src="assets\1042424.png" id="bookicon">
+        <h2 class="subtitle">Escreva um programa que inverta os caracteres de um string. <br>
+            a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente
+            definida no código;<br>
+            b) Evite usar funções prontas, como, por exemplo, reverse;
+        </h2>
+    </div>
+    <div class="imagestatic">
+        <img [src]="imageUrl" alt="Imagem" [ngStyle]="getImageStyle()" />
+    </div>
+    <button  id="butchange" (click)="changeImage()">Trocar imagem</button>
+    <div class="invertbox">
+        <p> escreva sua string:</p>
+        <input type="text" [(ngModel)]="userString">
+        <button (click)="inverterString()" class="btn2">Inverter</button>
+    </div>
+    <p>String invertida: {{ changedString }}</p>
+</div>

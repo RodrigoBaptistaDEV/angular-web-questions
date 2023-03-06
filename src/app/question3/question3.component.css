@@ -1,0 +1,26 @@
+.box, .box2{
+    background-color: white;
+    width: 780px;
+    display: flex;
+    border-radius: 20px;
+    padding: 10px;
+}
+.box2{
+    margin-top:20px ;
+    margin-bottom:20px ;
+}
+h1{
+    color: white;
+}
+
+h2{
+    margin-left: 40px;
+}
+    
+img{
+    object-fit: contain;
+    margin-left: 40px;
+}
+h3{
+    padding-inline: 40px;
+}

@@ -1,0 +1,81 @@
+h1 {
+    color: #0b255c;
+}
+
+h2 {
+    padding-inline: 60px;
+}
+
+input {
+    margin-inline: 10px;
+    border-radius: 3px;
+}
+
+.fibonacci {
+    color: rgb(1, 3, 128);
+}
+
+.not-fibonacci {
+    color: rgb(151, 0, 0);
+}
+
+.imagestatic {
+    height: 500px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #4dbc9b98;
+}
+
+img {
+    border-radius: 20px;
+}
+
+#butchange {
+    margin: 20px;
+    font-size: 14px;
+    color: #0b255c;
+    background-color: #4dbc9a;
+    padding: 10px 30px;
+    border: solid #0b255c 2px;
+    border-radius: 50px;
+    transition: 813ms;
+}
+
+#butchange:hover {
+    transition: 813ms;
+    padding: 10px 50px;
+    background-color: #0b255c;
+    color: #ffffff;
+    border: solid 2px #0b255c;
+}
+
+p{
+    padding: 20px;
+}
+
+form{
+    border: 5px solid #2b9676 ;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border-radius: 10px;
+}
+
+.but2{
+    background-color: #4dbc9a;
+    border: solid #000000 2px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+.but2:hover{
+    background-color: #0b255c ;
+    color: white;
+}

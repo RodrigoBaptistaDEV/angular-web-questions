@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0px;
+    padding:0px;
+    font-family: sans-serif;
+    background-color: darkslategrey;
+}
+.title{
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: montserrat;
+    margin-block: 40px;
+}
+
+.subtitle{
+    font-size: 0.875rem;
+    line-height: 1.6;
+    font-weight: bold;
+}
+.an-text{
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+.container{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

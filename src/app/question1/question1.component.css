@@ -1,0 +1,23 @@
+.boxq1{
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    margin-bottom: 20px;
+    padding-inline: 40px;
+    gap: 20px;
+}
+.answerbox{
+    flex: 1;
+}
+
+h2{
+    border: 5px #4dbc9a solid;
+    padding: 15px;
+}
+h3{
+    flex: 1.8;
+    text-align: left;
+}
+h4{
+    text-align: right;
+}
