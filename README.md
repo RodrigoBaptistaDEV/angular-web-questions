@@ -1,7 +1,9 @@
-##Descrição
+# Descrição
 
-Aplicação Web Angular - página demonstrativa de questões
-pontos interessantes:
+Aplicação Web Angular - página demonstrativa de questões.
+
+Pontos interessantes:
+
 - a página é dividida em cinco componentes Sections para facilitar a modularidade e manutenção do código
 - botões funcionais com troca de desing interativo.
 - header com background com efeito blur usando backdrop filter
@@ -10,7 +12,7 @@ pontos interessantes:
 - função de inversão de string. Input html com ngModel e função feita no component Ts.
 - utilização do CSS global para definição de estilos gerais na pagina, como textos e container. 
 
-# Pagetarget
+## Pagetarget
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
 
