@@ -3,7 +3,6 @@ section {
 }
 
 .banner {
-    background-image: url("/assets/darkblueback.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
