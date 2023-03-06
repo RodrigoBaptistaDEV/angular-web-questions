@@ -1,3 +1,15 @@
+##Descrição
+
+Aplicação Web Angular - página demonstrativa de questões
+pontos interessantes:
+- a página é dividida em cinco componentes Sections para facilitar a modularidade e manutenção do código
+- botões funcionais com troca de desing interativo.
+- header com background com efeito blur usando backdrop filter
+- duas áreas no site que mudam a imagem confome o clique no botão interativo. Devido a diferença dos tamanhos de imagem a serem mostrados a solução inserida foi controlar o tamanho do arquivo por uma condicional que dá diferentes tamanhos, podendo organizar o tamanho final a ser renderizado. Aplicado no HTML pelo ngStyle.
+- Função de verificação de numero na sequencia Fibonnaci. Input html com NgModel e função feita no componente Ts. O resultado da verificação altera uma tag p dando diferentes classes CSS através de ngClass
+- função de inversão de string. Input html com ngModel e função feita no component Ts.
+- utilização do CSS global para definição de estilos gerais na pagina, como textos e container. 
+
 # Pagetarget
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
