@@ -18,3 +18,8 @@ h2{
     align-items: center;
     padding: 20px;
 }
+img{
+    width: 600px;
+    height: 400px;
+    padding-inline: 20px;
+}

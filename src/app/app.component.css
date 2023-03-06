@@ -3,6 +3,7 @@ section {
 }
 
 .banner {
+    background-image: url("https://img.freepik.com/free-vector/realistic-design-technology-background_23-2148426705.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +21,8 @@ section {
 .section-blue {
     background-color: #0b255c;
 }
-footer{
+
+footer {
     text-align: end;
     padding-right: 20px;
     font-size: 12px;
